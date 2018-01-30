@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Open-Study Project'
+title: 'Open-Study Layout'
 author: HanSooKyeong
 date: 2017-11-01 17:36
 tags: [project]
