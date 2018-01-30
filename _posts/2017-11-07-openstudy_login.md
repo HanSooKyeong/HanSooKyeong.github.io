@@ -10,7 +10,7 @@ image: /files/covers/blog.jpg
 #. login 구현
 
 * #### 로그인 테이블 만들기
- - 회원테이블 추가
+  - 회원테이블 추가
 ``` java
 CREATE TABLE user (
   userNo int(11) NOT NULL AUTO_INCREMENT,
@@ -20,7 +20,7 @@ CREATE TABLE user (
 ```
 
 * #### 로그인창 jsp 만들기
- - 로그인폼 구현 (추후 구현 - 아이디저장, 자동로그인)
+  - 로그인폼 구현 (추후 구현 - 아이디저장, 자동로그인)
 
 ``` html
 <form action="/login/loginPost" method="post" id="loginForm">
@@ -39,7 +39,7 @@ CREATE TABLE user (
 ```
 
 * #### 필요한 pom.xml에 메이븐파일 작성
- - Mybatis 를 사용하기 위해 아래 4개 메이븐파일을 pom.xml에 추가
+  - Mybatis 를 사용하기 위해 아래 4개 메이븐파일을 pom.xml에 추가
 
 ```
  <!-- jdbc 연결 -->
@@ -131,7 +131,7 @@ CREATE TABLE user (
  ```
 
 * #### loginInterCepter.class 작성
- - servlet-context.xml 에 아래내용을 추가
+  - servlet-context.xml 에 아래내용을 추가
 
 ```
  <beans:bean id="loginInterceptor" class="패키지명.LoginInterceptor" />
@@ -144,8 +144,8 @@ CREATE TABLE user (
 	 </interceptors>
 ```
 
- - 그리고나서 HandlerInterceptorAdapter 를 상속받으면 인터셉터를 사용
- - preHandle은 컨트롤러를 거치기 전이고, postHandle은 컨트롤러를 거친 후
+  - 그리고나서 HandlerInterceptorAdapter 를 상속받으면 인터셉터를 사용
+  - preHandle은 컨트롤러를 거치기 전이고, postHandle은 컨트롤러를 거친 후
 
 ```
 
@@ -195,7 +195,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
 ```
 
 * #### userMapper.xml 작성
- - 로그인 userNo, UserEamil, userNick, userAuth (유저권한) 가져옴
+  - 로그인 userNo, UserEamil, userNick, userAuth (유저권한) 가져옴
 
  ```
  <select id="login" resultType="UserVO"> <!-- 로그인 -->
@@ -204,7 +204,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
 
  ```
 
- 7. #### userDAO, userService 작성
+ * #### userDAO, userService 작성
  - DAO는 DB등 하나의 데이터 접근 및 갱신만 처리하며, Service 는 DAO들을 호출하여 읽은 데이터에 대한 비지니스 로직을 수행하며 트랜잭션으로 처리함
 
  ``` java
