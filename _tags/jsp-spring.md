@@ -1,4 +1,4 @@
 ---
-name: Servlet/JSP/Spring
-title: 'Servlet/JSP/Spring'
+name: JSP-Spring
+title: 'JSP-Spring'
 ---

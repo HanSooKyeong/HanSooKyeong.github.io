@@ -1,4 +1,0 @@
----
-name: SQL
-title: 'SQL'
----
