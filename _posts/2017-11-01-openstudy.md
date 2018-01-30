@@ -12,14 +12,14 @@ image: /files/covers/blog.jpg
 ---
 
 ### 메인페이지
-<img src="{{ site.baseurl }}/assets/images/openstudy_layout/mainPage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/openstudy_layout/mainPage.PNG" alt="">
 ### 마이페이지
-<img src="{{ site.baseurl }}/assets/images/openstudy_layout/myPage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/openstudy_layout/myPage.PNG" alt="">
 ### 등록페이지
-<img src="{{ site.baseurl }}/assets/images/openstudy_layout/studyPage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/openstudy_layout/studyPage.PNG" alt="">
 ### 리스트페이지
-<img src="{{ site.baseurl }}/assets/images/openstudy_layout/listpage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/openstudy_layout/listPage.PNG" alt="">
 ### 상세페이지
-<img src="{{ site.baseurl }}/assets/images/openstudy_layout/detailpage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/openstudy_layout/detailPage.PNG" alt="">
 
 ---
