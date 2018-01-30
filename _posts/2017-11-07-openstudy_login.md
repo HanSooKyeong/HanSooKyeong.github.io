@@ -144,8 +144,8 @@ CREATE TABLE user (
 	 </interceptors>
 ```
 
-  - 그리고나서 HandlerInterceptorAdapter 를 상속받으면 인터셉터를 사용
-  - preHandle은 컨트롤러를 거치기 전이고, postHandle은 컨트롤러를 거친 후
+    - 그리고나서 HandlerInterceptorAdapter 를 상속받으면 인터셉터를 사용
+    - preHandle은 컨트롤러를 거치기 전이고, postHandle은 컨트롤러를 거친 후
 
 ```
 
@@ -205,11 +205,11 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
  ```
 
  * #### userDAO, userService 작성
- - DAO는 DB등 하나의 데이터 접근 및 갱신만 처리하며, Service 는 DAO들을 호출하여 읽은 데이터에 대한 비지니스 로직을 수행하며 트랜잭션으로 처리함
+  - DAO는 DB등 하나의 데이터 접근 및 갱신만 처리하며, Service 는 DAO들을 호출하여 읽은 데이터에 대한 비지니스 로직을 수행하며 트랜잭션으로 처리함
 
  ``` java
 
- - userDAO
+  - userDAO
  @Repository
  public class UserDAOImpl implements UserDAO {
 
