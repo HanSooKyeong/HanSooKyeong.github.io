@@ -9,7 +9,7 @@ image: /files/covers/blog.jpg
 
 #. login 구현
 
-1. #### 로그인 테이블 만들기
+* #### 로그인 테이블 만들기
  - 회원테이블 추가
 ``` java
 CREATE TABLE user (
@@ -19,7 +19,7 @@ CREATE TABLE user (
 )
 ```
 
-2. #### 로그인창 jsp 만들기
+* #### 로그인창 jsp 만들기
  - 로그인폼 구현 (추후 구현 - 아이디저장, 자동로그인)
 
 ``` html
@@ -38,7 +38,7 @@ CREATE TABLE user (
 </form>
 ```
 
-3. #### 필요한 pom.xml에 메이븐파일 작성
+* #### 필요한 pom.xml에 메이븐파일 작성
  - Mybatis 를 사용하기 위해 아래 4개 메이븐파일을 pom.xml에 추가
 
 ```
@@ -71,7 +71,7 @@ CREATE TABLE user (
 		</dependency>
 ```
 
-4. #### 로그인 Controller 작성
+* #### 로그인 Controller 작성
   - loginGet 메서드 request.getHeader("referer") - 이전 페이지 기억
   - dest 세션은 기존 페이지URI 를 저장
 
@@ -130,7 +130,7 @@ CREATE TABLE user (
 
  ```
 
-5. #### loginInterCepter.class 작성
+* #### loginInterCepter.class 작성
  - servlet-context.xml 에 아래내용을 추가
 
 ```
@@ -194,7 +194,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
 
 ```
 
-6. #### userMapper.xml 작성
+* #### userMapper.xml 작성
  - 로그인 userNo, UserEamil, userNick, userAuth (유저권한) 가져옴
 
  ```
