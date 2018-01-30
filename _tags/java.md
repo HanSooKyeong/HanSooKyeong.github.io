@@ -1,4 +1,4 @@
 ---
-name: JAVA
+name: java
 title: 'JAVA'
 ---

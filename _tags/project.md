@@ -1,4 +1,4 @@
 ---
-name: Project
+name: project
 title: 'Project'
 ---

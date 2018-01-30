@@ -1,4 +1,4 @@
 ---
-name: JSP-Spring
+name: jsp-spring
 title: 'JSP-Spring'
 ---

@@ -1,4 +1,4 @@
 ---
-name: Jquery
+name: jquery
 title: 'Jquery'
 ---

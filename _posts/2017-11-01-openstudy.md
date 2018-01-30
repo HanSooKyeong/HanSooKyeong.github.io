@@ -3,7 +3,7 @@ layout: post
 title: 'Open-Study Project'
 author: HanSooKyeong
 date: 2017-11-01 17:36
-tags: [Project]
+tags: [project]
 image: /files/covers/blog.jpg
 ---
 
