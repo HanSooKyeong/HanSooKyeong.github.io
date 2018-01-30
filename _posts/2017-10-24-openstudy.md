@@ -2,8 +2,8 @@
 layout: post
 title: 'Open-Study Project'
 author: HanSooKyeong
-date: 2017-10-24 10:00
-tags: [jsp-spring, han]
+date: 2017-10-24 10:10
+tags: [Project]
 image: /files/covers/blog.jpg
 ---
 
