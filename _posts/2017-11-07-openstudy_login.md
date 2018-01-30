@@ -144,8 +144,9 @@ CREATE TABLE user (
 	 </interceptors>
 ```
 
-    - 그리고나서 HandlerInterceptorAdapter 를 상속받으면 인터셉터를 사용
-    - preHandle은 컨트롤러를 거치기 전이고, postHandle은 컨트롤러를 거친 후
+  - 그리고나서 HandlerInterceptorAdapter 를 상속받으면 인터셉터를 사용
+  - preHandle은 컨트롤러를 거치기 전이고, postHandle은 컨트롤러를 거친 후
+
 
 ```
 
